@@ -1,0 +1,12 @@
+{
+  "project_name": "Cost-Optimized LLM Gateway with Python and LiteLLM",
+  "framework": "FastAPI",
+  "orchestration": "LiteLLM",
+  "caching": "Redis (RediSearch Vector Search)",
+  "database": "PostgreSQL (SQLAlchemy)",
+  "test_command": "pytest",
+  "run_command": "uvicorn app.main:app --host 0.0.0.0 --port 8000",
+  "docker_build_command": "docker-compose build",
+  "docker_run_command": "docker-compose up -d",
+  "simulation_command": "python cost_simulation.py"
+}
